@@ -8,11 +8,11 @@ Questions For Investigation
 
 ### 2. What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.
 
-Since population parameters are unknown, and it is practically impossible to perform this test on the entire population of the world, so we will take the samples data provided to make inferences about the population. In other words, we will try to assess the differences between the sample means(X\_diff) are due to the differences in population means(mu\_congruent and mu\_incongruent) or just by chance
+Since population parameters are unknown, and it is practically impossible to perform this test on the entire population of the world, so we will take the samples data provided to make inferences about the population. In other words, we will try to assess the differences between the sample means(*X*<sub>*D*</sub>) are due to the differences in population means(*μ*<sub>*C*</sub> and *μ*<sub>*I*</sub>) or just by chance.
 
--   Null Hypothesis(H\_0): there is no significant difference between the population mean of time taken for congruent words(mu\_congruent) condition and the incongruent words condition(mu\_incongruent). *μ*<sub>*C*</sub> *μ*<sub>*C*</sub> = *μ*<sub>*I*</sub> OR *μ*<sub>*D*</sub> = 0
+-   Null Hypothesis($\\H\_0$): there is no significant difference between the population mean of time taken for congruent words(*μ*<sub>*C*</sub>) condition and the pouplation means of incongruent words condition(*μ*<sub>*I*</sub>). $\\H\_0$ : *μ*<sub>*C*</sub> = *μ*<sub>*I*</sub> OR *μ*<sub>*D*</sub> = 0
 
--   Alternate Hypothesis (H\_A): there is a significant difference between the population mean(mu) of time taken for incongruent words condition(mu\_congruent) and for congruent words condition(mu\_incongruent). *μ*<sub>*C*</sub>!=*μ*<sub>*I*</sub> OR *μ*<sub>*D*</sub>!=0
+-   Alternate Hypothesis ($\\H\_A$): there is a significant difference between the population mean of time taken for congruent words (*μ*<sub>*C*</sub>) and population means for incongruent words condition(*μ*<sub>*I*</sub>). *μ*<sub>*C*</sub> ≠ *μ*<sub>*I*</sub> OR *μ*<sub>*D*</sub> ≠ 0
 
 Considering that the samples are dependent and each of the participant has gone through both the conditions, the hypothesis test we perform will be two-sided paired dependent samples t-test.
 
