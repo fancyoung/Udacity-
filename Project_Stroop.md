@@ -8,11 +8,11 @@ Questions For Investigation
 
 ### 2. What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.
 
-Hypothesis: Since population parameters are unknown, we will use the provided sample to make inferences about the population.
+Since population parameters are unknown, and it is practically impossible to perform this test on the entire population of the world, so we will take the samples data provided to make inferences about the population. In other words, we will try to assess the differences between the sample means(X\_diff) are due to the differences in population means(mu\_congruent and mu\_incongruent) or just by chance
 
--   Null Hypothesis: there is no significant difference between the mean(mu) of time taken for congruent words condition and the incongruent words condition. H\_0: mu\_congruent = mu\_incongruent OR mu\_congruent - mu\_incongruent = 0 OR mu\_diff = 0
+-   Null Hypothesis(H\_0): there is no significant difference between the population mean of time taken for congruent words(mu\_congruent) condition and the incongruent words condition(mu\_incongruent). *μ*<sub>*C*</sub> *μ*<sub>*C*</sub> = *μ*<sub>*I*</sub> OR *μ*<sub>*D*</sub> = 0
 
--   Alternate Hypothesis: there is a significant difference between the mean(mu) of time taken for incongruent words condition and for congruent words condition. H\_A: mu\_congruent != mu\_incongruent OR mu\_congruent - mu\_incongruent != 0 OR mu\_diff != 0
+-   Alternate Hypothesis (H\_A): there is a significant difference between the population mean(mu) of time taken for incongruent words condition(mu\_congruent) and for congruent words condition(mu\_incongruent). *μ*<sub>*C*</sub>!=*μ*<sub>*I*</sub> OR *μ*<sub>*D*</sub>!=0
 
 Considering that the samples are dependent and each of the participant has gone through both the conditions, the hypothesis test we perform will be two-sided paired dependent samples t-test.
 
